@@ -1,0 +1,82 @@
+
+h1 {
+	margin-top: 30px;
+	margin-bottom: 30px ;
+
+}
+mark {
+	background-color: yellow;
+
+}
+hr {
+	background-color: black;
+	height: 5px;
+}
+/*draggable*/
+ #draggable { 
+ 	width: 150px;
+ 	height: 150px; 
+ 	padding: 30px;
+ 	background-color: black;
+ 	color: white;
+ 	text-align: center;
+ }
+/* dropable*/
+.dd{
+	overflow: hidden;
+}
+#draggable2{
+ width: 100px;
+ height: 100px; 
+ padding: 0.5em; 
+ float: left; 
+ margin: 10px 10px 10px 0;
+
+ }
+ #droppable {
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px; 
+}
+
+/*  resizeable*/
+#resizable {
+ width: 150px; 
+ height: 150px; 
+}
+ #resizable h3 {
+ text-align: center;
+  margin: 0; 
+}
+
+/*selectable*/
+/*#feedback {
+ font-size: 1.4em;
+  }*/
+#selectable .ui-selecting {
+ background: #FECA40;
+  }
+#selectable .ui-selected { 
+	background: #F39814; 
+	color: white; 
+}
+/*#selectable {
+list-style-type: none; 
+ margin: 0; 
+ padding: 0; 
+ width: 60%; 
+}
+#selectable li {
+ margin: 3px; 
+ padding: 0.4em; 
+ font-size: 1.4em; 
+ height: 18px; 
+}*/
+/*menu*/
+#menu {
+	width: 50%;
+}
+#slider img {
+}
